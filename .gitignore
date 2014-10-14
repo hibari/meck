@@ -14,3 +14,10 @@ doc/*.png
 doc/edoc-info
 ebin
 tags
+.*.swp
+.settings
+.project
+*.sublime-workspace
+*.sublime-project
+deps/*
+.rebar
