@@ -1,8 +1,11 @@
 language: erlang
 notifications:
-  disabled: true
+  email:
+    - hello@alind.io
 otp_release:
-  - R14B03
-  - R14B02
-  - R14B01
-  - R13B04
+  - 17.0
+  - R16B03-1
+  - R16B
+  - R15B03
+before_script: "make get-deps"
+script: "make all"
